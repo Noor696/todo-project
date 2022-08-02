@@ -33,6 +33,8 @@ var questionTwo = prompt("Making simple daily plans helps you reach your goal, r
 var questionThree = prompt("Do you like trying out a new idea almost every day? I mean, you don't like routine? Y/N");
 alert ("If your answers are “OK,yes”, then this “ToDo List” app is perfect for you");
 
+required();
+
 function required(){
 if (questionOne || questionTwo || questionThree === ""){
     return "invalid";
